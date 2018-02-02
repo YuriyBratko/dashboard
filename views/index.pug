@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  table
+    th Brand
+    th WebsiteProdVersion
+    th BOProdVersion
+    th AffiliatesProdVersion
+    each val, key in json
+      tr
+        td #{key}
+        td #{val.WebsiteProdVersion}
+        td #{val.BOProdVersion}
+        td #{val.AffiliatesProdVersion}
