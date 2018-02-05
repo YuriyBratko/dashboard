@@ -48,4 +48,4 @@ app.use(function(err, req, res, next) {
 
 module.exports = app;
 
-//SET DEBUG=express-locallibrary-tutorial:* & npm run devstart
+//SET DEBUG=dashboard* & npm run devstart

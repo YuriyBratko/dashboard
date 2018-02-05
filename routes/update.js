@@ -1,10 +1,8 @@
 var express = require('express');
 var router = express.Router();
 
-//
 const updateJsonFile = require('update-json-file')
 const filePath = './brands.json'
-//
 
 
 /* POST data updates */
@@ -15,12 +13,14 @@ router.post('/', function(req, res, next) {
   data.OTC.BOProdVersion = versionToInsert
   return data
 })
-  
+
+// does not work for updating data //  res.redirect('/')  
   res.setHeader('Content-Type', 'text/plain')
   res.write('you posted:\n')
   res.end(JSON.stringify(req.body, null, 2))
-  //res.send('data updated');
+
 });
+
 
 module.exports = router;
 
