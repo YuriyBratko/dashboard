@@ -7,12 +7,14 @@ const filePath = './brands.json'
 
 /* POST data updates */
 router.post('/', function(req, res, next) {
-  var versionToInsert = JSON.stringify(req.body.OTC.BOProdVersion, null, 2)
-  console.log('Updated version: ' + versionToInsert)
-  updateJsonFile(filePath, (data) => {
-  data.OTC.BOProdVersion = versionToInsert
-  return data
-})
+
+
+//  var versionToInsert = JSON.stringify(req.body.OTC.BOProdVersion, null, 2)
+//  console.log('Updated version: ' + versionToInsert)
+//  updateJsonFile(filePath, (data) => {
+//  data.OTC.BOProdVersion = versionToInsert
+//  return data
+//})
 
 // does not work for updating data //  res.redirect('/')  
   res.setHeader('Content-Type', 'text/plain')
