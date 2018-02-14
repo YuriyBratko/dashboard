@@ -16,7 +16,22 @@ router.post('/', function(req, res, next) {
 //  return data
 //})
 
-// does not work for updating data //  res.redirect('/')  
+//Extract release definition id to match brand
+//  var releaseDefinitionId = JSON.stringify(req.body.resource.environment.releaseDefinition.id, null, 2)
+  var releaseDefinitionId = JSON.stringify(req.body.resource.environment.releaseDefinition.id)
+  console.log('Release Definition Id: ' + releaseDefinitionId)
+
+//Extract version that has been deployed
+  var versionNumber = JSON.stringify(req.body.resource.deployment.release.artifacts[0].definitionReference.version.name)
+  console.log('Release Version Number: ' + versionNumber)
+
+//Update file with new version
+  updateJsonFile(filePath, (data) => {
+  data.OTC.BOProdVersion = versionNumber
+  return data
+})
+  
+  
   res.setHeader('Content-Type', 'text/plain')
   res.write('you posted:\n')
   res.end(JSON.stringify(req.body, null, 2))
@@ -36,3 +51,5 @@ module.exports = router;
   return data
 })
 */
+
+//.definitionReference.version.name

@@ -5,6 +5,7 @@
 		"AffiliatesProdVersion": "3"
 	},
 	"GMO": {
+		"releaseDefinitionId": 37,
 		"WebsiteProdVersion": "1",
 		"BOProdVersion": "2",
 		"AffiliatesProdVersion": "3"
@@ -16,7 +17,7 @@
 	},
 	"OTC": {
 		"WebsiteProdVersion": "1",
-		"BOProdVersion": "\"m1111\"",
+		"BOProdVersion": "\"1.0.0.174\"",
 		"AffiliatesProdVersion": "3"
 	},
 	"ITR": {
