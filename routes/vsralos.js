@@ -5,7 +5,7 @@ var request = require('request');
 var options = {
   uri: 'https://hooks.slack.com/services/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',
   method: 'POST',
-  json: {	"text":"ВСРАЛОСЬ",
+  json: {	"text":"<@U8KBVL7ND> ВСРАЛОСЬ",
     "attachments": [
         {
             "fallback": "Required plain-text summary of the attachment.",
