@@ -29,6 +29,7 @@ app.use('/', index);
 app.use('/users', users);
 app.use('/update', update);
 app.use('/vsralos', vsralos);
+app.use('/success', success);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -51,3 +52,8 @@ app.use(function(err, req, res, next) {
 module.exports = app;
 
 //SET DEBUG=dashboard* & npm run devstart
+
+//git add -A
+//git commit -m "Added files and changes required for deployment to heroku"
+//git push origin master
+//git push heroku master

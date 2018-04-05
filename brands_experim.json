@@ -1,27 +1,33 @@
 {
 	"ABC": {
-		"WebsiteProdVersion": "\"kitten\"",
+		"BrandName": "ABC",
+		"WebsiteProdVersion": "kitten",
 		"BOProdVersion": "2",
 		"AffiliatesProdVersion": "3"
 	},
 	"GMO": {
+		"BrandName": "GMO",
+		"releaseDefinitionId": 37,
 		"WebsiteProdVersion": "1",
 		"BOProdVersion": "2",
 		"AffiliatesProdVersion": "3"
 	},
 	"UMI": {
+		"BrandName": "UMI",
 		"WebsiteProdVersion": "1",
 		"BOProdVersion": "2",
 		"AffiliatesProdVersion": "3"
 	},
 	"OTC": {
+		"BrandName": "OTC",
+		"WebsiteProdVersion": "1",
+		"BOProdVersion": "\"1.0.0.174\"",
+		"AffiliatesProdVersion": "3"
+	},
+	"ITR": {
+		"BrandName": "ITR",
 		"WebsiteProdVersion": "1",
 		"BOProdVersion": "\"999.1.\"",
 		"AffiliatesProdVersion": "3"
-	},
-    "ITR": {
-        "WebsiteProdVersion": "1",
-        "BOProdVersion": "\"999.1.\"",
-        "AffiliatesProdVersion": "3"
 	}
 }

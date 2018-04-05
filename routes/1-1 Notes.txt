@@ -1,0 +1,33 @@
+1-1 important notes
+- Alex behavior
+
+To Nikita:
+- How we manage allocation between projects? Yoram is pushing for allocating ALL resources in peak periods to Websites.
+We need ground rules to protect CRM teams
+- Concentrating on improvements in BI (and Analyst) teams
+- Want to push the new prod move
+
+To me:
+- 1-1 with Chen
+- Discuss Ela's involvement and position in BI communication with Yaniv and Yoram
+- Issue with testing BI reports in prod - how can be done alternatively?
+- Access to Panda CRM, MT4 and prod DB 
+- Get team uildings for teams (separately) with $25-30 budget per team
+
+
+My plan concentrate:
+- BI project
+
+
+
+
+
+
+1) All Brand PnL reports
+Need ETA estimates to UAT
+pick one exchange rate to start with
+same KPI's
+2) Hourly measurment
+Sequence: Itrader FTO Global (after review) GMO (duplicating)
+Brand by Brand
+3) Hourly measurements all brands together
