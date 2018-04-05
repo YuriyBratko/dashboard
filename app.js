@@ -10,6 +10,7 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 var update = require('./routes/update');
 var vsralos = require('./routes/vsralos');
+var success = require('./routes/success');
 
 var app = express();
 
